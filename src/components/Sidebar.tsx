@@ -71,7 +71,7 @@ export const ProfileSidebar = () => {
     // Function to fetch data from the Buy Me a Coffee API
     const fetchBMC: () => Promise<void> = async () => {
       // URL of the Buy Me a Coffee API endpoint
-      const url = "https://img.buymeacoffee.com/button-api/?&slug=maciekt07";
+      const url = "#";
       try {
         // Fetch data from the provided URL
         const response = await fetch(url);
@@ -288,7 +288,7 @@ export const ProfileSidebar = () => {
         <StyledMenuItem
           translate="no"
           onClick={() => {
-            window.open("https://github.com/maciekt07/TodoApp");
+            window.open("https://github.com/abhishek252003/To-Do_-Project.git");
           }}
         >
           <GitHub /> &nbsp; Github{" "}
@@ -306,7 +306,7 @@ export const ProfileSidebar = () => {
 
         <StyledMenuItem
           onClick={() => {
-            window.open("https://github.com/maciekt07/TodoApp/issues/new");
+            window.open("https://github.com/abhishek252003/To-Do_-Project/issues/new");
           }}
         >
           <BugReportRounded /> &nbsp; Report Issue{" "}
@@ -324,10 +324,10 @@ export const ProfileSidebar = () => {
         </StyledMenuItem>
 
         <StyledMenuItem
-          className="bmcMenu"
-          onClick={() => {
-            window.open("https://www.buymeacoffee.com/maciekt07");
-          }}
+          // className="bmcMenu"
+          // onClick={() => {
+          //   window.open("https://www.buymeacoffee.com/maciekt07");
+          // }}
         >
           <BmcIcon className="bmc-icon" src={bmcLogo} /> &nbsp; Buy me a coffee{" "}
           {bmcSupporters && (
@@ -416,9 +416,9 @@ export const ProfileSidebar = () => {
             <span style={{ marginLeft: "6px", marginRight: "4px" }}>by</span>
             <a
               style={{ textDecoration: "none", color: "inherit" }}
-              href="https://github.com/maciekt07"
+              href="https://github.com/abhishek252003"
             >
-              maciekt07
+             Aalsi-Launda
             </a>
           </CreditsContainer>
           <CreditsContainer>

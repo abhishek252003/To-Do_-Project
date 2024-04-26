@@ -41,7 +41,7 @@ export const saveQRCode = (taskName: string) => {
     ctx.fillStyle = "black";
     ctx.fillText(taskName, centerX, bottomY);
     // Draw attribution text
-    const text2 = "Todo App by github.com/maciekt07";
+    const text2 = "Todo App by github.com/abhishek252003";
     ctx.font = "14px Poppins";
     const text2Width = ctx.measureText(text2).width;
     const text2X = (canvasWidth - text2Width) / 2;
