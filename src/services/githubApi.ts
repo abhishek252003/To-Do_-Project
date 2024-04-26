@@ -4,7 +4,7 @@ import { showToast } from "../utils";
 export const fetchGitHubInfo = async (): Promise<GitHubInfoResponse> => {
   const username = "abhishek252003";
   const repo = "To-Do_-Project";
-  const branch = "main";
+  const branch = "master";
   try {
     const [repoResponse, branchResponse] = await Promise.all([
       fetch(`https://api.github.com/repos/${username}/${repo}`),
